@@ -1,0 +1,12 @@
+body{
+    color: #1B76FF;
+}
+
+.card{
+    height: 300px;
+}
+.card-body> a{
+    background-color: #6f92ff !important;
+    border: none !important;
+    margin-top: 10px;
+}

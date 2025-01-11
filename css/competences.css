@@ -1,0 +1,19 @@
+h4 {
+  color: #1b76ff !important;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+canvas{
+    width: 15vw !important;
+    height: 15vw !important;
+}
+.bor{
+    color: #1b76ff;
+}
+@media (max-width:768px ) {
+    canvas{
+        width: 45vw !important;
+        height: 45vw !important;
+    }
+}

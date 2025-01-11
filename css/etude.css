@@ -1,0 +1,55 @@
+body{
+    background-color: #5084ff;
+}
+div>h1  {
+    color:  #f8f8f8 !important;
+}
+div p{
+    color: #ffffff  !important;
+}
+
+
+.circle{
+    width: 20vw;
+    height: 20vw;
+    background-color:  #ffffff;
+    display: flex !important ;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important ;
+    text-align: center !important;
+    border-radius: 50% !important;
+    padding: 10px !important;
+}
+
+.circle>.container>p{
+    color: #1B76FF  !important;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.information p {
+    color: #ffffff;
+    font-size: 3vw;
+}
+
+@media (max-width:768px) {
+    .circle {
+        position: relative;
+    }
+    .circle p{
+        color: #ffffff;
+        font-size: 3vw;
+        margin-top: 4px;
+    }
+    .circle>.container{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -50px;
+        right: -50px;
+        overflow: scroll;
+    }
+}
+
+
+

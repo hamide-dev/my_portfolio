@@ -1,0 +1,6 @@
+@media (max-width:868px ) {
+    video{
+        width: initial !important;
+        height:initial !important;
+    }
+}

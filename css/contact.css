@@ -1,0 +1,54 @@
+
+.form{
+    width: 75% !important;
+}
+
+input::placeholder , textarea::placeholder{
+    color: #6f92ff !important;
+    font-weight:bold;
+}
+input ,textarea{
+    border:solid 1px #6f92ff !important ;
+    width:75% !important;
+    color: #000 !important;
+    background-color: transparent !important;
+}
+input:focus::placeholder{
+    transform: translateY(-250px);
+}
+.map{
+    height:350px;
+}
+textarea{
+    height: 120px !important;
+}
+.submit{
+    background: #1B76FF;
+    color: white;
+}
+.error{
+    border: solid 2px#ff0000 !important;
+}
+.none{
+    display: none !important;
+}
+.block{
+    display: block !important;
+}
+
+@media (max-width: 768px) { 
+    .form{
+        width: 100% !important;
+    }
+    .map{
+        height:250px;
+    }
+    
+}
+
+@media (min-width: 769px ) and (max-width: 965px ){ 
+    .form{
+        width: 75% !important;
+    }
+    
+}
