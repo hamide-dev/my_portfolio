@@ -9,7 +9,6 @@ ul>li>a{
 
 .container>ul>li>a {
   transform: initial !important;
-  transition: initial !important;
 }
 
 .icon:hover {
