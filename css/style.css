@@ -7,7 +7,7 @@ ul>li>a{
    
 }
 
-footer a:hover {
+.container>ul>li>a {
   transform: initial !important;
   transition: initial !important;
 }
